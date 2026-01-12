@@ -5,6 +5,7 @@ import { authorizeRoles } from "../middlewares/role.middleware.js";
 
 const router = express.Router();
 
+
 router.get(
   "/retailer",
   authenticateUser,
