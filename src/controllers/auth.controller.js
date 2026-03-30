@@ -4,6 +4,7 @@ import { ApiError } from "../utils/ApiError.js";
 
 const JWT_SECRET = "agora_secret_key";
 
+
 export const login = (req, res, next) => {
   try {
     const { email, password } = req.body;
