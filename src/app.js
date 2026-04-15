@@ -8,6 +8,7 @@ import adminRoutes from './routes/admin.routes.js';
 import notificationRoutes from "./routes/notifications.routes.js";
 
 
+
 const app = express();
 
 app.use(cors({
